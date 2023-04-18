@@ -34,7 +34,7 @@ public class Principal extends Application{
         primaryStage.setMaxHeight(400);
         primaryStage.setMaxWidth(600);
         primaryStage.setTitle("Problema do Trem");
-        primaryStage.getIcons().add(new Image("/assets/icon.png"));
+        primaryStage.getIcons().add(new Image("/assets/train.png"));
         primaryStage.setScene(scene);
         primaryStage.show();
     }
