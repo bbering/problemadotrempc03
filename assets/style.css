@@ -41,3 +41,56 @@
 #option04:hover {
     -fx-color: rgb(255, 255, 255);
 }
+
+#plusRed{
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-color: rgb(255, 0, 0);
+}
+
+#plusRed:hover{
+    -fx-color: rgb(255, 255, 255);
+}
+
+#lessRed{
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-color: rgb(255, 0, 0); 
+}
+
+#lessRed:hover{
+    -fx-color: rgb(255, 255, 255);
+}
+
+#plusBlue{
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-color: rgb(0, 26, 255);
+}
+
+#plusBlue:hover{
+    -fx-color: rgb(255, 255, 255);
+}
+
+#lessBlue{
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-color: rgb(0, 26, 255);
+}
+
+#lessBlue:hover{
+    -fx-color: rgb(255, 255, 255);
+}
+
+#solutionsBox{
+    -fx-border-color: rgb(255, 255, 255);
+    -fx-border-width: 3px;
+    -fx-border-radius: 2px;
+    -fx-color: rgb(146, 224, 139);
+}
+
+
