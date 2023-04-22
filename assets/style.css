@@ -2,21 +2,21 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(146, 224, 139);
+    -fx-color: rgb(84, 238, 255);
 }
 
 #option02 {
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(146, 224, 139);
+    -fx-color: rgb(84, 238, 255);
 }
 
 #option03 {
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(146, 224, 139);
+    -fx-color:rgb(84, 238, 255);
 }
 
 #option01:hover {
@@ -35,7 +35,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(146, 224, 139);
+    -fx-color: rgb(84, 238, 255);
 }
 
 #option04:hover {
@@ -90,7 +90,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(146, 224, 139);
+    -fx-color: rgb(84, 238, 255);
 }
 
 

@@ -91,7 +91,7 @@ public class mainController implements Initializable {
 
   // Variaveis usadas na estrita alternancia
 
-  private int turn01 = 1;
+  private int turn01 = 0;
 
   private int turn02 = 0;
 
@@ -451,7 +451,7 @@ public class mainController implements Initializable {
 
   // Metodos de estrita alternancia
 
-  public void alternateFrist() {
+  public void alternateFirst() {
     while (getTurn01() != 0) {
       try {
         Thread.sleep(1);
@@ -473,5 +473,15 @@ public class mainController implements Initializable {
 
   public String selectedSolution() {
     return solutionsBox.getSelectionModel().getSelectedItem().toString();
+  }
+
+  // Setando o valor das variaveis de estrita alternancia
+
+  public void setTurn01(int turn01) {
+      this.turn01 = turn01;
+  }
+
+  public void setTurn02(int turn02) {
+      this.turn02 = turn02;
   }
 }
