@@ -303,6 +303,7 @@ public class ThreadSecondTrain extends Thread {
             break;
           }
           case 4: {
+            mainController.setTurn01(1);
             mainController.moveX("blue", 100, 0, 1);
             mainController.rotate("blue", -45, 1);
             mainController.moveY("blue", 0, -30, "up", 1);
