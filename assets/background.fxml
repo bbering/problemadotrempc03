@@ -7,10 +7,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.mainController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="restartButton" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@background.png" />
          </image>
@@ -25,11 +26,11 @@
             <Image url="@train.png" />
          </image>
       </ImageView>
-      <Button fx:id="option01" layoutX="33.0" layoutY="63.0" mnemonicParsing="false" onAction="#display01" prefHeight="22.0" prefWidth="66.0" stylesheets="@style.css" text="Opção 1">
+      <Button fx:id="option01" layoutX="27.0" layoutY="63.0" mnemonicParsing="false" onAction="#display01" prefHeight="22.0" prefWidth="66.0" stylesheets="@style.css" text="Opção 1">
          <font>
             <Font name="Franklin Gothic Medium" size="12.0" />
          </font></Button>
-      <Button fx:id="option02" layoutX="117.0" layoutY="63.0" mnemonicParsing="false" onAction="#display02" stylesheets="@style.css" text="Opção 2">
+      <Button fx:id="option02" layoutX="105.0" layoutY="63.0" mnemonicParsing="false" onAction="#display02" stylesheets="@style.css" text="Opção 2">
          <font>
             <Font name="Franklin Gothic Medium" size="12.0" />
          </font>
@@ -37,7 +38,7 @@
             <Tooltip text="Dois trens a direita" />
          </tooltip>
       </Button>
-      <Button fx:id="option03" layoutX="34.0" layoutY="91.0" mnemonicParsing="false" onAction="#display03" stylesheets="@style.css" text="Opção 3">
+      <Button fx:id="option03" layoutX="28.0" layoutY="91.0" mnemonicParsing="false" onAction="#display03" stylesheets="@style.css" text="Opção 3">
          <font>
             <Font name="Franklin Gothic Medium" size="12.0" />
          </font>
@@ -55,7 +56,7 @@
             <Image url="@train02.png" />
          </image>
       </ImageView>
-      <Button fx:id="option04" layoutX="117.0" layoutY="91.0" mnemonicParsing="false" onAction="#display04" stylesheets="@style.css" text="Opção 4">
+      <Button fx:id="option04" layoutX="105.0" layoutY="91.0" mnemonicParsing="false" onAction="#display04" stylesheets="@style.css" text="Opção 4">
          <font>
             <Font name="Franklin Gothic Medium" size="12.0" />
          </font>
@@ -93,6 +94,11 @@
             <Font name="Franklin Gothic Medium" size="10.0" />
          </font>
       </Button>
-      <ComboBox fx:id="solutionsBox" layoutX="32.0" layoutY="32.0" prefWidth="150.0" stylesheets="@style.css" />
+      <ComboBox fx:id="solutionsBox" layoutX="24.0" layoutY="35.0" prefWidth="150.0" stylesheets="@style.css" />
+      <Text fx:id="msgText" layoutX="35.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OBS: Você pode alterar a solução em tempo real..." wrappingWidth="140.677734375">
+         <font>
+            <Font name="Franklin Gothic Medium" size="12.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

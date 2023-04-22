@@ -46,7 +46,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 2px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(255, 0, 0);
+    -fx-color: rgb(235, 77, 77);
 }
 
 #plusRed:hover{
@@ -57,7 +57,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 2px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(255, 0, 0); 
+    -fx-color: rgb(235, 77, 77);
 }
 
 #lessRed:hover{
@@ -68,7 +68,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 2px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(0, 26, 255);
+    -fx-color: rgb(25,130,238)
 }
 
 #plusBlue:hover{
@@ -79,7 +79,7 @@
     -fx-border-color: rgb(255, 255, 255);
     -fx-border-width: 2px;
     -fx-border-radius: 2px;
-    -fx-color: rgb(0, 26, 255);
+    -fx-color: rgb(25,130,238)
 }
 
 #lessBlue:hover{
@@ -91,6 +91,7 @@
     -fx-border-width: 3px;
     -fx-border-radius: 2px;
     -fx-color: rgb(84, 238, 255);
+    -fx-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 

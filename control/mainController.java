@@ -2,7 +2,7 @@
 * Autor............: Breno Bering Silva
 * Matricula........: 202110863
 * Inicio...........: 17/04/2023
-* Ultima alteracao.: 
+* Ultima alteracao.: 22/04/2023
 * Nome.............: Problema do Trem
 * Funcao...........: Controlar a cena e implementar metodos
 *************************************************************** */
@@ -20,6 +20,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
 import threads.*;
 
 public class mainController implements Initializable {
@@ -40,6 +41,8 @@ public class mainController implements Initializable {
   @FXML
   private Button lessBlue;
 
+  // Todos os botoes de display
+
   @FXML
   private Button option01;
 
@@ -52,6 +55,8 @@ public class mainController implements Initializable {
   @FXML
   private Button option04;
 
+  // Imagens dos trens
+
   @FXML
   private ImageView train1;
 
@@ -63,6 +68,11 @@ public class mainController implements Initializable {
 
   @FXML
   private ImageView train4;
+
+  // Box de solucoes e mensagem
+
+  @FXML
+  private Text msgText;
 
   @FXML
   private ComboBox solutionsBox;
@@ -99,6 +109,7 @@ public class mainController implements Initializable {
 
   @Override
   public void initialize(URL location, ResourceBundle resources) {
+    msgText.setVisible(false);
     this.threadTrain1 = new ThreadFirstTrain();
     threadTrain1.setController(this);
     this.threadTrain2 = new ThreadSecondTrain();
@@ -164,6 +175,7 @@ public class mainController implements Initializable {
 
   @FXML
   public void display01(ActionEvent event) {
+    msgText.setVisible(true);
     option01.setVisible(false);
     option02.setVisible(false);
     option03.setVisible(false);
@@ -180,6 +192,7 @@ public class mainController implements Initializable {
 
   @FXML
   public void display02(ActionEvent event) {
+    msgText.setVisible(true);
     option01.setVisible(false);
     option02.setVisible(false);
     option03.setVisible(false);
@@ -196,6 +209,7 @@ public class mainController implements Initializable {
 
   @FXML
   public void display03(ActionEvent event) {
+    msgText.setVisible(true);
     option01.setVisible(false);
     option02.setVisible(false);
     option03.setVisible(false);
@@ -212,6 +226,7 @@ public class mainController implements Initializable {
 
   @FXML
   public void display04(ActionEvent event) {
+    msgText.setVisible(true);
     option01.setVisible(false);
     option02.setVisible(false);
     option03.setVisible(false);
@@ -449,27 +464,7 @@ public class mainController implements Initializable {
     return turn02;
   }
 
-  // Metodos de estrita alternancia
-
-  public void alternateFirst() {
-    while (getTurn01() != 0) {
-      try {
-        Thread.sleep(1);
-      } catch (InterruptedException e) {
-        System.out.println("Erro!!!!");
-      }
-    }
-  }
-
-  public void alternateSecond() {
-    while (getTurn02() != 1) {
-      try {
-        Thread.sleep(1);
-      } catch (InterruptedException e) {
-        System.out.println("Erro!!!!");
-      }
-    }
-  }
+  // Metodo que retorna o valor selecionado na combo box
 
   public String selectedSolution() {
     return solutionsBox.getSelectionModel().getSelectedItem().toString();
@@ -478,10 +473,10 @@ public class mainController implements Initializable {
   // Setando o valor das variaveis de estrita alternancia
 
   public void setTurn01(int turn01) {
-      this.turn01 = turn01;
+    this.turn01 = turn01;
   }
 
   public void setTurn02(int turn02) {
-      this.turn02 = turn02;
+    this.turn02 = turn02;
   }
 }

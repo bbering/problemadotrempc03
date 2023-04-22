@@ -3,7 +3,7 @@
 * Autor............: Breno Bering Silva
 * Matricula........: 202110863
 * Inicio...........: 17/04/2023
-* Ultima alteracao.: 
+* Ultima alteracao.: 22/04/2023
 * Nome.............: Problema do Trem
 * Funcao...........: Resolver o problema da região critica
 *************************************************************** */
@@ -29,7 +29,8 @@ public class Principal extends Application {
     mainController control = new mainController();
     Parent root = loader.load();
 
-    // Criando a cena e setando altura, largura, icone, propriedade resizable, icone da tela
+    // Criando a cena e setando altura, largura, icone, propriedade resizable, icone
+    // da tela
     Scene scene = new Scene(root);
     primaryStage.setResizable(false);
     primaryStage.setMaxHeight(400);
