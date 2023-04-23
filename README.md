@@ -5,7 +5,7 @@ Problema proposto pela disciplina programação concorrente, cursada no terceiro
 O projeto busca desenvolver um algoritmo que resolva o problema do trem, utilizando conceitos e abordagens da programação concorrente, a exemplo: threads, acesso de dois (ou mais) processos a uma mesma variável, dentre outros. No problema, desenvolvido em java, foi desenvolvida uma interface para melhor compreensão do usuário.
 
 ## Layout
-(https://github.com/bbering/problemadotrempc03/blob/main/assets/layout.png)
+![Layout](https://github.com/bbering/problemadotrempc03/blob/main/assets/layout.png)
 
 # Como excutar o projeto
 ## Pré-Requisito: Java 8 (inclui a biblioteca javaFX nativa)
@@ -25,6 +25,6 @@ E pronto! O projeto foi executado.
 ```
 
 ## Programa em execução: 
-https://github.com/bbering/problemadotrempc03/blob/main/assets/executionGif20FPS.gif
+![Execução](https://github.com/bbering/problemadotrempc03/blob/main/assets/executionGif20FPS.gif)
 
 Thats all folks!!
