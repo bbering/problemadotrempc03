@@ -1,5 +1,5 @@
 # Problema do Trem
-Problema proposto pela disciplina programação concorrente, cursada no terceiro semestre na Universidade Estadual do Sudoeste da Bahia. O problema do trem consiste em dois trens que acessam uma mesma via ao mesmo tempo. Num sentido mais técnico, dois processos que acessam um mesmo recurso (chamado zona crítica) ao mesmo tempo e necessitam de um mecanismo que gerencie o acesso desse recurso.
+Problema proposto pela disciplina programação concorrente, cursada no terceiro semestre na Universidade Estadual do Sudoeste da Bahia. Desenvolido na linguagem Java.
 
 # Sobre o projeto
 O projeto busca desenvolver um algoritmo que resolva o problema do trem, utilizando conceitos e abordagens da programação concorrente, a exemplo: threads, acesso de dois (ou mais) processos a uma mesma variável, dentre outros. No problema, desenvolvido em java, foi elaborada uma interface gráfica para melhor compreensão do usuário.
