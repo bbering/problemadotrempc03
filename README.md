@@ -7,14 +7,14 @@ O projeto busca desenvolver um algoritmo que resolva o problema do trem, utiliza
 ## Layout
 ![Layout](https://github.com/bbering/problemadotrempc03/blob/main/assets/layout.png)
 
-# Como excutar o projeto
+# Como executar o projeto
 ## Pré-Requisito: Java 8 (inclui a biblioteca javaFX nativa)
 
 ```
-# Clonar repositorio
+Clonar repositorio
 git clone git@github.com:bbering/problemadotrempc03.git
 
-# Executar na pasta raiz do programa (onde se encontra o .java principal) o seguinte comando:
+Executar na pasta raiz do programa (onde se encontra o .java principal) o seguinte comando:
 
 javac Principal.java (Compila o projeto)
 
