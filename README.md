@@ -12,7 +12,7 @@ O projeto busca desenvolver um algoritmo que resolva o problema do trem, utiliza
 
 ```
 Clonar repositorio
-git clone git@github.com:bbering/problemadotrempc03.git
+git clone https://github.com/bbering/problemadotrempc03.git
 
 Executar na pasta raiz do programa (onde se encontra o .java principal) o seguinte comando:
 
